@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		393F6295275460DE00A996D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F6294275460DE00A996D3 /* AppDelegate.swift */; };
-		393F6297275460DE00A996D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F6296275460DE00A996D3 /* SceneDelegate.swift */; };
-		393F6299275460DE00A996D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F6298275460DE00A996D3 /* ViewController.swift */; };
-		393F629C275460DE00A996D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393F629A275460DE00A996D3 /* Main.storyboard */; };
 		393F629E275460E000A996D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393F629D275460E000A996D3 /* Assets.xcassets */; };
 		393F62A1275460E000A996D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393F629F275460E000A996D3 /* LaunchScreen.storyboard */; };
+		3960ABBC2757711D00F274BF /* YJAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABBB2757711D00F274BF /* YJAwesome.swift */; };
+		3960ABC12758647000F274BF /* YJAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABC02758647000F274BF /* YJAPI.swift */; };
+		3960ABCF275DB90F00F274BF /* YJConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABCE275DB90F00F274BF /* YJConst.swift */; };
+		3960ABD2275DD8B100F274BF /* YJExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABD1275DD8B100F274BF /* YJExtension.swift */; };
+		3960ABD4275DF76B00F274BF /* YJNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABD3275DF76B00F274BF /* YJNetworking.swift */; };
+		3960ABD9276060DF00F274BF /* YJBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABD8276060DE00F274BF /* YJBaseTabBarController.swift */; };
+		3960ABDB2760612300F274BF /* YJBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABDA2760612300F274BF /* YJBaseNavigationController.swift */; };
+		3960ABDD2760613100F274BF /* YJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABDC2760613100F274BF /* YJBaseViewController.swift */; };
+		3960ABE32760619F00F274BF /* YJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABE22760619F00F274BF /* YJHomeViewController.swift */; };
+		3960ABE5276061AA00F274BF /* YJLiveHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABE4276061AA00F274BF /* YJLiveHomeViewController.swift */; };
+		3960ABE7276061B400F274BF /* YJMessageHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABE6276061B400F274BF /* YJMessageHomeViewController.swift */; };
+		3960ABE9276061C000F274BF /* YJMyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABE8276061C000F274BF /* YJMyHomeViewController.swift */; };
+		3960ABEB276061EF00F274BF /* YJRootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABEA276061EF00F274BF /* YJRootTabBarController.swift */; };
+		3960ABF127607C6A00F274BF /* YJLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABF027607C6A00F274BF /* YJLoginViewController.swift */; };
+		3960ABF327607C8B00F274BF /* YJUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABF227607C8B00F274BF /* YJUserInfo.swift */; };
+		3960ABF72760B25A00F274BF /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ABF62760B25A00F274BF /* R.generated.swift */; };
+		39FE8088276738B5001E30D3 /* YJActionCaptcha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE8087276738B5001E30D3 /* YJActionCaptcha.swift */; };
+		6AE9012F832269D9544B6195 /* Pods_YJAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE28645E6B256A35FC28C427 /* Pods_YJAwesome.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		338E9AAE346BB7484582C945 /* Pods-YJAwesome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJAwesome.release.xcconfig"; path = "Target Support Files/Pods-YJAwesome/Pods-YJAwesome.release.xcconfig"; sourceTree = "<group>"; };
 		393F6291275460DE00A996D3 /* YJAwesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJAwesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		393F6294275460DE00A996D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		393F6296275460DE00A996D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		393F6298275460DE00A996D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		393F629B275460DE00A996D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		393F629D275460E000A996D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		393F62A0275460E000A996D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		393F62A2275460E000A996D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3960ABBB2757711D00F274BF /* YJAwesome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJAwesome.swift; sourceTree = "<group>"; };
+		3960ABC02758647000F274BF /* YJAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJAPI.swift; sourceTree = "<group>"; };
+		3960ABCE275DB90F00F274BF /* YJConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJConst.swift; sourceTree = "<group>"; };
+		3960ABD1275DD8B100F274BF /* YJExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJExtension.swift; sourceTree = "<group>"; };
+		3960ABD3275DF76B00F274BF /* YJNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJNetworking.swift; sourceTree = "<group>"; };
+		3960ABD8276060DE00F274BF /* YJBaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJBaseTabBarController.swift; sourceTree = "<group>"; };
+		3960ABDA2760612300F274BF /* YJBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJBaseNavigationController.swift; sourceTree = "<group>"; };
+		3960ABDC2760613100F274BF /* YJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJBaseViewController.swift; sourceTree = "<group>"; };
+		3960ABE22760619F00F274BF /* YJHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJHomeViewController.swift; sourceTree = "<group>"; };
+		3960ABE4276061AA00F274BF /* YJLiveHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJLiveHomeViewController.swift; sourceTree = "<group>"; };
+		3960ABE6276061B400F274BF /* YJMessageHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJMessageHomeViewController.swift; sourceTree = "<group>"; };
+		3960ABE8276061C000F274BF /* YJMyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJMyHomeViewController.swift; sourceTree = "<group>"; };
+		3960ABEA276061EF00F274BF /* YJRootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJRootTabBarController.swift; sourceTree = "<group>"; };
+		3960ABF027607C6A00F274BF /* YJLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJLoginViewController.swift; sourceTree = "<group>"; };
+		3960ABF227607C8B00F274BF /* YJUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJUserInfo.swift; sourceTree = "<group>"; };
+		3960ABF62760B25A00F274BF /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = YJAwesome/R.generated.swift; sourceTree = "<group>"; };
+		3960ABF82761FD0D00F274BF /* YJAwesome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YJAwesome.entitlements; sourceTree = "<group>"; };
+		39FE808327673847001E30D3 /* YJAwesome-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJAwesome-Bridging-Header.h"; sourceTree = "<group>"; };
+		39FE8087276738B5001E30D3 /* YJActionCaptcha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJActionCaptcha.swift; sourceTree = "<group>"; };
+		8ECB0F12E0EB92BE28830E57 /* Pods-YJAwesome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJAwesome.debug.xcconfig"; path = "Target Support Files/Pods-YJAwesome/Pods-YJAwesome.debug.xcconfig"; sourceTree = "<group>"; };
+		FE28645E6B256A35FC28C427 /* Pods_YJAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AE9012F832269D9544B6195 /* Pods_YJAwesome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +75,15 @@
 		393F6288275460DE00A996D3 = {
 			isa = PBXGroup;
 			children = (
+				39FE808327673847001E30D3 /* YJAwesome-Bridging-Header.h */,
+				3960ABF62760B25A00F274BF /* R.generated.swift */,
+				3960ABBB2757711D00F274BF /* YJAwesome.swift */,
+				3960ABEF27607BF800F274BF /* YJUserInfo */,
+				3960ABD0275DD88200F274BF /* YJExtension */,
 				393F6293275460DE00A996D3 /* YJAwesome */,
 				393F6292275460DE00A996D3 /* Products */,
+				BD9330ABAEFED6DCA5D06BBD /* Pods */,
+				FC2E2463A82FCB232586B6BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,147 @@
 		393F6293275460DE00A996D3 /* YJAwesome */ = {
 			isa = PBXGroup;
 			children = (
+				3960ABF82761FD0D00F274BF /* YJAwesome.entitlements */,
+				3960ABB827576B7700F274BF /* AppDelegate */,
+				3960ABBE275856F000F274BF /* Common */,
+				3960ABBD275856D400F274BF /* BaseModule */,
+				3960ABBA27576BAA00F274BF /* MainBody */,
+				3960ABB927576B9300F274BF /* Resources */,
+			);
+			path = YJAwesome;
+			sourceTree = "<group>";
+		};
+		3960ABB827576B7700F274BF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				393F6294275460DE00A996D3 /* AppDelegate.swift */,
-				393F6296275460DE00A996D3 /* SceneDelegate.swift */,
-				393F6298275460DE00A996D3 /* ViewController.swift */,
-				393F629A275460DE00A996D3 /* Main.storyboard */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3960ABB927576B9300F274BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				393F629D275460E000A996D3 /* Assets.xcassets */,
 				393F629F275460E000A996D3 /* LaunchScreen.storyboard */,
 				393F62A2275460E000A996D3 /* Info.plist */,
 			);
-			path = YJAwesome;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3960ABBA27576BAA00F274BF /* MainBody */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABEA276061EF00F274BF /* YJRootTabBarController.swift */,
+				3960ABDE2760614E00F274BF /* YJHome */,
+				3960ABDF2760615F00F274BF /* YJLive */,
+				3960ABE02760616500F274BF /* YJMessage */,
+				3960ABE12760616D00F274BF /* YJMy */,
+			);
+			path = MainBody;
+			sourceTree = "<group>";
+		};
+		3960ABBD275856D400F274BF /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABD7276060AE00F274BF /* YJBaseObject */,
+				3960ABBF2758642000F274BF /* YJNetwork */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		3960ABBE275856F000F274BF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABCE275DB90F00F274BF /* YJConst.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3960ABBF2758642000F274BF /* YJNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABC02758647000F274BF /* YJAPI.swift */,
+				3960ABD3275DF76B00F274BF /* YJNetworking.swift */,
+			);
+			path = YJNetwork;
+			sourceTree = "<group>";
+		};
+		3960ABD0275DD88200F274BF /* YJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABD1275DD8B100F274BF /* YJExtension.swift */,
+			);
+			path = YJExtension;
+			sourceTree = "<group>";
+		};
+		3960ABD7276060AE00F274BF /* YJBaseObject */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABD8276060DE00F274BF /* YJBaseTabBarController.swift */,
+				3960ABDA2760612300F274BF /* YJBaseNavigationController.swift */,
+				3960ABDC2760613100F274BF /* YJBaseViewController.swift */,
+			);
+			path = YJBaseObject;
+			sourceTree = "<group>";
+		};
+		3960ABDE2760614E00F274BF /* YJHome */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABE22760619F00F274BF /* YJHomeViewController.swift */,
+			);
+			path = YJHome;
+			sourceTree = "<group>";
+		};
+		3960ABDF2760615F00F274BF /* YJLive */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABE4276061AA00F274BF /* YJLiveHomeViewController.swift */,
+			);
+			path = YJLive;
+			sourceTree = "<group>";
+		};
+		3960ABE02760616500F274BF /* YJMessage */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABE6276061B400F274BF /* YJMessageHomeViewController.swift */,
+			);
+			path = YJMessage;
+			sourceTree = "<group>";
+		};
+		3960ABE12760616D00F274BF /* YJMy */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABE8276061C000F274BF /* YJMyHomeViewController.swift */,
+			);
+			path = YJMy;
+			sourceTree = "<group>";
+		};
+		3960ABEF27607BF800F274BF /* YJUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				3960ABF027607C6A00F274BF /* YJLoginViewController.swift */,
+				3960ABF227607C8B00F274BF /* YJUserInfo.swift */,
+				39FE8087276738B5001E30D3 /* YJActionCaptcha.swift */,
+			);
+			path = YJUserInfo;
+			sourceTree = "<group>";
+		};
+		BD9330ABAEFED6DCA5D06BBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ECB0F12E0EB92BE28830E57 /* Pods-YJAwesome.debug.xcconfig */,
+				338E9AAE346BB7484582C945 /* Pods-YJAwesome.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC2E2463A82FCB232586B6BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE28645E6B256A35FC28C427 /* Pods_YJAwesome.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +248,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 393F62A5275460E000A996D3 /* Build configuration list for PBXNativeTarget "YJAwesome" */;
 			buildPhases = (
+				E63A60268FBAC2D7BE88093B /* [CP] Check Pods Manifest.lock */,
+				3960ABEC276064F200F274BF /* ShellScript */,
 				393F628D275460DE00A996D3 /* Sources */,
 				393F628E275460DE00A996D3 /* Frameworks */,
 				393F628F275460DE00A996D3 /* Resources */,
+				99753482A5F648A2E15C3F85 /* [CP] Embed Pods Frameworks */,
+				B994813F75D4B81190D0984F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,11 +277,12 @@
 				TargetAttributes = {
 					393F6290275460DE00A996D3 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
 			buildConfigurationList = 393F628C275460DE00A996D3 /* Build configuration list for PBXProject "YJAwesome" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,34 +306,118 @@
 			files = (
 				393F62A1275460E000A996D3 /* LaunchScreen.storyboard in Resources */,
 				393F629E275460E000A996D3 /* Assets.xcassets in Resources */,
-				393F629C275460DE00A996D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3960ABEC276064F200F274BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/YJAwesome/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/R.swift/rswift generate $SRCROOT/YJAwesome/R.generated.swift\n";
+		};
+		99753482A5F648A2E15C3F85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJAwesome/Pods-YJAwesome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJAwesome/Pods-YJAwesome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YJAwesome/Pods-YJAwesome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B994813F75D4B81190D0984F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJAwesome/Pods-YJAwesome-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJAwesome/Pods-YJAwesome-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YJAwesome/Pods-YJAwesome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63A60268FBAC2D7BE88093B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJAwesome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		393F628D275460DE00A996D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393F6299275460DE00A996D3 /* ViewController.swift in Sources */,
+				3960ABE7276061B400F274BF /* YJMessageHomeViewController.swift in Sources */,
+				3960ABF127607C6A00F274BF /* YJLoginViewController.swift in Sources */,
+				3960ABD4275DF76B00F274BF /* YJNetworking.swift in Sources */,
+				3960ABC12758647000F274BF /* YJAPI.swift in Sources */,
+				3960ABCF275DB90F00F274BF /* YJConst.swift in Sources */,
+				3960ABDB2760612300F274BF /* YJBaseNavigationController.swift in Sources */,
+				3960ABDD2760613100F274BF /* YJBaseViewController.swift in Sources */,
+				3960ABBC2757711D00F274BF /* YJAwesome.swift in Sources */,
+				3960ABF72760B25A00F274BF /* R.generated.swift in Sources */,
+				3960ABF327607C8B00F274BF /* YJUserInfo.swift in Sources */,
+				3960ABE9276061C000F274BF /* YJMyHomeViewController.swift in Sources */,
+				3960ABD9276060DF00F274BF /* YJBaseTabBarController.swift in Sources */,
+				3960ABE5276061AA00F274BF /* YJLiveHomeViewController.swift in Sources */,
+				3960ABEB276061EF00F274BF /* YJRootTabBarController.swift in Sources */,
+				3960ABE32760619F00F274BF /* YJHomeViewController.swift in Sources */,
+				3960ABD2275DD8B100F274BF /* YJExtension.swift in Sources */,
 				393F6295275460DE00A996D3 /* AppDelegate.swift in Sources */,
-				393F6297275460DE00A996D3 /* SceneDelegate.swift in Sources */,
+				39FE8088276738B5001E30D3 /* YJActionCaptcha.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		393F629A275460DE00A996D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				393F629B275460DE00A996D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		393F629F275460E000A996D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,9 +547,12 @@
 		};
 		393F62A6275460E000A996D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECB0F12E0EB92BE28830E57 /* Pods-YJAwesome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = YJAwesome/YJAwesome.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7MGWB79Z83;
@@ -294,27 +560,33 @@
 				INFOPLIST_FILE = YJAwesome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TYJ.YJAwesome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YJAwesome-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		393F62A7275460E000A996D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338E9AAE346BB7484582C945 /* Pods-YJAwesome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = YJAwesome/YJAwesome.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7MGWB79Z83;
@@ -322,19 +594,21 @@
 				INFOPLIST_FILE = YJAwesome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TYJ.YJAwesome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YJAwesome-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
